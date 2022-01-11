@@ -22,7 +22,7 @@ namespace LuckySpin
             {
                 endpoints.MapControllerRoute(
                   name: "default",
-                  pattern: "{controller}/{action},{id}",
+                  pattern: "{controller}/{action}/{id}",
                   defaults: new
                   {
                    controller = "Spinner", 

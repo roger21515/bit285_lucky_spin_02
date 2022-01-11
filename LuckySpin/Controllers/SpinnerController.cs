@@ -3,8 +3,7 @@
 namespace LuckySpin.Controllers
 {
     public class SpinnerController : Controller
-    { }
-        // TODO: Receive a LuckyNumber object as a parameter called "Lucky" from DIJ
+    {         // TODO: Receive a LuckyNumber object as a parameter called "Lucky" from DIJ
         // TODO: Modify the Index Action to return Lucky.Output as the Content
         public IActionResult Index()
         {
